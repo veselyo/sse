@@ -3,11 +3,23 @@
 ## Motivation
 - In early engineering design phases, there is high uncertainty in final specifications, materials, manufacturing methods, and regulatory requirements. The earlier in the design phase, the larger are the possible changes to design parameters.
 - Traditional optimization approaches produce designs that are extremely sensitive to parameter changes. Inevitable later-stage adjustments can trigger extensive redesign and high costs.
+- Traditional optimization methods may be ill-suited or inefficient for complex real-world problems.
 
 ## Description
-TODO
+### Managing Uncertainty through Solution Spaces
+- Instead of identifying a single optimized design point, SSE identifies a multi-dimensional solution box.
+- For each design parameter, a permissible range interval is defined independently from other
+parameters. A solution box is a product of these intervals in the entire design space.
+- This independence significantly reduces sensitivity, as changes in one parameter rarely require
+simultaneous redesign of other parameters.
+- Uncertainties in early design phases and inevitable later-stage adjustments can be accommodated
+without extensive redesign.
+### Application to Complex Problems
+- SSE can be used for arbitrary non-linear high dimensional problems.
+- SSE quickly converges to solution, making it computationally practical for problems where traditional
+optimization would require an infeasible number of evaluations.
 
-## Front Crash Demo
+## Example Problem 1: Front Crash
 ![Solution](front_crash/outputs/run_1_box.png)
 ![Good Designs Fraction](front_crash/outputs/run_1_good_designs_fraction.png)
 ![Normalized Volume](front_crash/outputs/run_1_normalized_vol.png)
