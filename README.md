@@ -20,6 +20,10 @@ without extensive redesign.
 optimization would require an infeasible number of evaluations.
 
 ## Example Problem 1: Front Crash
+- Assume a vehicle front structure designed for a front crash against a rigid barrier with deformation possible at the
+deformation forces F_1 and F_2
+
+
 ![Solution](front_crash/outputs/run_1_box.png)
 ![Good Designs Fraction](front_crash/outputs/run_1_good_designs_fraction.png)
 ![Normalized Volume](front_crash/outputs/run_1_normalized_vol.png)
