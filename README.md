@@ -32,8 +32,10 @@ threshold level, and 2) Ensure an ordered deformation starting from the front of
 ![Solution](front_crash/outputs/run_1_box.png)
 
 ## Example Problem 2: AERIS Demo
-- Assume a pre-modeled vehicle, where you can change the following metrics  
-![Normalized Volume](aeris/outputs/run_1_normalized_vol.png)
+- Assume a pre-trained NN that given vehicle dimensions, outputs the drag coefficient CD.
+- Assume you only want to change the following dimensions within pre-defined intervals: lenght, overhang, width, greenhouse.
+- The system design for the example is finding all vehicle designs that satisfy your defined drag coefficient requirement.
+
 ![Length](aeris/outputs/run_1_length.png)
 ![Overhang](aeris/outputs/run_1_overhang.png)
 ![Width](aeris/outputs/run_1_width.png)
