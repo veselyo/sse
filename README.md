@@ -22,11 +22,8 @@ optimization would require an infeasible number of evaluations.
 ## Example Problem 1: Front Crash
 - Assume a vehicle front structure designed for a front crash against a rigid barrier with deformation possible at the
 deformation forces F1 and F2.
-− The system design goals for the crash performance are:
-1. Keep the deceleration a of the passenger cell below a critical
-threshold level
-2. Ensure an ordered deformation starting from the front of the
-vehicle
+− The system design goals for the crash performance are: 1) Keep the deceleration a of the passenger cell below a critical
+threshold level, and 2) Ensure an ordered deformation starting from the front of the vehicle.
 
 
 ![Solution](front_crash/outputs/run_1_box.png)
