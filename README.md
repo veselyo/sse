@@ -20,7 +20,7 @@ without extensive redesign.
 optimization would require an infeasible number of evaluations.
 
 ## Algorithm Description
-- For detailed description of how the algorithm works, refer to this paper, which I used for designing the algorithm: ![Solution](sse.pdf).
+- For detailed description of how the algorithm works, refer to [this paper](sse.pdf), which I used for designing the algorithm.
 
 ## Example Problem 1: Front Crash
 - Assume a vehicle front structure designed for a front crash against a rigid barrier with deformation possible at the
