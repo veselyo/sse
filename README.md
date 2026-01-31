@@ -35,6 +35,7 @@ threshold level, and 2) Ensure an ordered deformation starting from the front of
 - Assume a pre-trained NN that given vehicle dimensions, outputs the drag coefficient CD.
 - Assume you only want to change the following dimensions within pre-defined intervals: lenght, overhang, width, greenhouse.
 - The system design for the example is finding all vehicle designs that satisfy your defined drag coefficient requirement.
+- Below are shown how the dimension intervals change over the iterations of SSE, eventually converging and giving us all possible vehicle designs that satisfy our requirement. 
 
 ![Length](aeris/outputs/run_1_length.png)
 ![Overhang](aeris/outputs/run_1_overhang.png)
