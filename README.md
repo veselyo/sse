@@ -5,7 +5,7 @@
 - Traditional optimization approaches produce designs that are extremely sensitive to parameter changes. Inevitable later-stage adjustments can trigger extensive redesign and high costs.
 - Traditional optimization methods may be ill-suited or inefficient for complex real-world problems.
 
-## Description
+## Solution
 ### Managing Uncertainty through Solution Spaces
 - Instead of identifying a single optimized design point, SSE identifies a multi-dimensional solution box.
 - For each design parameter, a permissible range interval is defined independently from other
@@ -18,6 +18,9 @@ without extensive redesign.
 - SSE can be used for arbitrary non-linear high dimensional problems.
 - SSE quickly converges to solution, making it computationally practical for problems where traditional
 optimization would require an infeasible number of evaluations.
+
+## Algorithm Description
+- For detailed description of how the algorithm works, refer to this paper, which I used for designing the algorithm: .
 
 ## Example Problem 1: Front Crash
 - Assume a vehicle front structure designed for a front crash against a rigid barrier with deformation possible at the
